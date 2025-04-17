@@ -34,4 +34,3 @@ Security: User data, including login credentials and review information, must be
 Usability: The website should have an intuitive, easy-to-use interface on desktop devices, achieving a user satisfaction score of at least 80% for ease of navigation and functionality. 
 
 Scalability: The platform must support up to 50 active concurrently without significant slowdowns or issues, especially during peak application times.
-sheesh
