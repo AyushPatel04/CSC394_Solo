@@ -34,3 +34,23 @@ Security: User data, including login credentials and review information, must be
 Usability: The website should have an intuitive, easy-to-use interface on desktop devices, achieving a user satisfaction score of at least 80% for ease of navigation and functionality. 
 
 Scalability: The platform must support up to 50 active concurrently without significant slowdowns or issues, especially during peak application times.
+
+# CSC394 - Homework 3 API (Solo Repo)
+
+## Overview
+This is the solo API project for CSC394 Homework 3 by Ayush Patel. The assignment required creating a "smart" endpoint by integrating an external API. This FastAPI project includes a `/suggestion` endpoint that makes a real-time call to the Open-Meteo weather API. It returns a smart recommendation based on the current temperature in Chicago.
+
+---
+
+## How to Run the App
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/AyushPatel04/CSC394_Solo.git
+   cd CSC394_Solo
+   
+2. Install Dependencies
+   pip install fastapi uvicorn requests
+   
+3. Run the app
+   uvicorn main:app --reload
