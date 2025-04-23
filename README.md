@@ -50,7 +50,9 @@ This is the solo API project for CSC394 Homework 3 by Ayush Patel. The assignmen
    cd CSC394_Solo
    
 2. Install Dependencies
+   ```bash
    pip install fastapi uvicorn requests
    
 3. Run the app
+   ```bash
    uvicorn main:app --reload
